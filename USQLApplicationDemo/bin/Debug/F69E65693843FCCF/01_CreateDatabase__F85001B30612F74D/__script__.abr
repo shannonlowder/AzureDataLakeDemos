@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScriptAndGraph GraphType="VertexCommands">
+  <Vertices count="0" />
+  <Outputs />
+  <graph serveForThirdParty="True" JsonErrors="True" JobType="BatchSqlIp" MaxPercentInputUnavailability="0" vertexExecutable="scopehost.exe" BroadcastCopyThroughCommandLine="ScopeEngine.dll -scopeVertex SV_CopyThrough">
+    <metadataoperation exeName="MetaDataExecutor.exe" argument="&quot;commit&quot;">
+      <MetadataJob xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/Scope.Metadata.Contract">
+        <StorageInfo>
+          <DataRoot>C:\Users\slowd\AppData\Local\USQLDataRoot</DataRoot>
+          <MountPointName>catalog</MountPointName>
+          <MountPointPhysicalPath>C:\Users\slowd\AppData\Local\USQLDataRoot/catalog/</MountPointPhysicalPath>
+        </StorageInfo>
+        <OperationsSequence>
+          <MetadataOperation i:type="CreateEntityOperation">
+            <Entity i:type="DatabaseInfo">
+              <Name>
+                <Server>localcomputeaccount</Server>
+                <FirstPart>DemoDatabase</FirstPart>
+              </Name>
+              <Version>ae695d8b-e685-4248-908f-1760ca102c47</Version>
+              <CreateDate i:nil="true" />
+              <IsAutoStatCreate>false</IsAutoStatCreate>
+              <IsAutoStatUpdate>false</IsAutoStatUpdate>
+            </Entity>
+          </MetadataOperation>
+          <MetadataOperation i:type="CreateEntityOperation">
+            <Entity i:type="SchemaInfo">
+              <Name>
+                <Server>localcomputeaccount</Server>
+                <FirstPart>DemoDatabase</FirstPart>
+                <SecondPart>dbo</SecondPart>
+              </Name>
+              <Version>84e80920-3423-4bd9-9041-ea00d3abf725</Version>
+            </Entity>
+          </MetadataOperation>
+          <MetadataOperation i:type="CreateEntityOperation">
+            <Entity i:type="SchemaInfo">
+              <Name>
+                <Server>localcomputeaccount</Server>
+                <FirstPart>DemoDatabase</FirstPart>
+                <SecondPart>sys</SecondPart>
+              </Name>
+              <Version>4f7c2633-661b-490b-a623-d3675215a382</Version>
+            </Entity>
+          </MetadataOperation>
+          <MetadataOperation i:type="CreateEntityOperation">
+            <Entity i:type="SchemaInfo">
+              <Name>
+                <Server>localcomputeaccount</Server>
+                <FirstPart>DemoDatabase</FirstPart>
+                <SecondPart>INFORMATION_SCHEMA</SecondPart>
+              </Name>
+              <Version>4a42bf75-6481-406a-8549-10e8601440cb</Version>
+            </Entity>
+          </MetadataOperation>
+          <MetadataOperation i:type="CreateEntityOperation">
+            <Entity i:type="SchemaInfo">
+              <Name>
+                <Server>localcomputeaccount</Server>
+                <FirstPart>DemoDatabase</FirstPart>
+                <SecondPart>usql</SecondPart>
+              </Name>
+              <Version>4a6850d1-d9a3-4ea6-aceb-62fc8763e0e7</Version>
+            </Entity>
+          </MetadataOperation>
+        </OperationsSequence>
+        <ScopeJobInfo>
+          <JobGuid>00000000-0000-0000-0000-000000000000</JobGuid>
+          <JobName></JobName>
+        </ScopeJobInfo>
+      </MetadataJob>
+    </metadataoperation>
+  </graph>
+  <Scopescript>CREATE DATABASE IF NOT EXISTS DemoDatabase;
+</Scopescript>
+  <Optimization succeeded="true" time="00:00:00.1380241" latency="-1" totalCost="-1" />
+  <ScopeVertexAnnotations />
+</ScriptAndGraph>

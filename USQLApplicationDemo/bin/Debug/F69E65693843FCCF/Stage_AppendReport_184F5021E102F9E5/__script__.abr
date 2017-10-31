@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScriptAndGraph GraphType="VertexCommands">
+  <Vertices count="1">
+    <Vertex index="1" command="-scopeVertex SV1_Extract  -i &quot;C:\Users\slowd\OneDrive\Documents\Allegient\Sells Group\DataLakeStorage\Raw\Sells_Group\Demographic\AppendReport\AppendReport_201705_46201.csv&quot;  -o C:\Repositories\AzureDataLakeDemos\USQLApplicationDemo\bin\Debug\F69E65693843FCCF\_Temp\Stage_AppendReport_184F5021E102F9E5\scopetmpfile._SV1_Extract_out0" />
+    <Vertex command="-concatenate -i C:\Repositories\AzureDataLakeDemos\USQLApplicationDemo\bin\Debug\F69E65693843FCCF\_Temp\Stage_AppendReport_184F5021E102F9E5\scopetmpfile._SV1_Extract_out0 -o &quot;C:\Users\slowd\OneDrive\Documents\Allegient\Sells Group\DataLakeStorage\Stage\Sells_Group\Demographic\AppendReport\AppendReport_201705_46201.csv&quot;" />
+  </Vertices>
+  <Outputs>
+    <Output path="C:\Users\slowd\OneDrive\Documents\Allegient\Sells Group\DataLakeStorage\Stage\Sells_Group\Demographic\AppendReport\AppendReport_201705_46201.csv" isBinary="False" schema="NameHash:byte[],in_seq:int?,in_subseq:int?,Address1:string,Address2:string,City:string,State:string,ZIP_Code:int?,First_Name:string,Last_Name:string,in_cvtseq:string,in_zip_code:string,I1 Combined Adult Age -2 bytes:string,Individual Education:string,Marital Status:string,Mosaic Household:string,ADULT GENDER/COMBINED AGE:string,Year Built (Enhanced):int?,Political Affiliation:string,Number Of Adults In Household:string,Number Of Children (Maximum Of 8 Children Per Household):string,Dwelling Type:string,Length Of Residence:string,Multi-Company Direct Mail Responder - Living Units Level:string,Gender Code:string,Date of Birth/Combined Adult Age:int?,Estimated Current Home Value:int?,I1 Combined Age:string,ChoiceScore Bundle:string,ChoiceScore Prospect Segment:string,ChoiceScore Prospect Model Score:int?,ChoiceScore Good versus Bad Score:string,Enhancement Mandatory Append1:string,Enhancement Mandatory Append2:string,Enhancement Mandatory Append3:string,Combined Homeowner:string,Online Overall:string,Retail Overall:string,Estimated Current Home Value2:string,Presence of Children 0-18:string,ConsumerView Profitability Score:string,Person 1: Occupation Group V2:string,Est Household Income V5:string" />
+  </Outputs>
+  <graph serveForThirdParty="True" JsonErrors="True" JobType="BatchSqlIp" MaxPercentInputUnavailability="0" vertexExecutable="scopehost.exe" BroadcastCopyThroughCommandLine="ScopeEngine.dll -scopeVertex SV_CopyThrough">
+    <process id="SV1_Extract" command="ScopeEngine.dll -scopeVertex SV1_Extract" managedMemorySize="322961408" nativeIOMemorySize="125829121" nativeExecutionMemorySize="272629760" DummyVertexOptimization="AllInputsEmptyImpliesOutputsEmpty|RunAtLeastOneVertex" trustedVertex="True">
+      <input id="Extract_0[ALL]" streamSize="4347534" cosmosStream="C:\Users\slowd\OneDrive\Documents\Allegient\Sells Group\DataLakeStorage\Raw\Sells_Group\Demographic\AppendReport\AppendReport_201705_46201.csv">
+        <cosmosStream cosmosPath="C:\Users\slowd\OneDrive\Documents\Allegient\Sells Group\DataLakeStorage\Raw\Sells_Group\Demographic\AppendReport\AppendReport_201705_46201.csv" streamSize="4347534" />
+      </input>
+      <output id="SV1_Extract_out0" cosmosStream="C:\Users\slowd\OneDrive\Documents\Allegient\Sells Group\DataLakeStorage\Stage\Sells_Group\Demographic\AppendReport\AppendReport_201705_46201.csv" />
+    </process>
+    <metadataoperation exeName="MetaDataExecutor.exe" argument="&quot;commit&quot;">
+      <MetadataJob xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/Scope.Metadata.Contract">
+        <StorageInfo>
+          <DataRoot>C:\Users\slowd\AppData\Local\USQLDataRoot</DataRoot>
+          <MountPointName>catalog</MountPointName>
+          <MountPointPhysicalPath>C:\Users\slowd\AppData\Local\USQLDataRoot/catalog/</MountPointPhysicalPath>
+        </StorageInfo>
+        <OperationsSequence>
+          <MetadataOperation i:type="CreateEntityOperation">
+            <Entity i:type="AssemblyInfo">
+              <Name>
+                <Server>localcomputeaccount</Server>
+                <FirstPart>DemoDatabase</FirstPart>
+                <SecondPart>__codeBehind_tl2owywh.na0</SecondPart>
+              </Name>
+              <Version>57a57f0c-e742-4517-b854-2b9bdeb85036</Version>
+              <ClrName>__codeBehind_tl2owywh.na0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</ClrName>
+              <CreateDate i:nil="true" />
+              <Dependencies />
+              <Files>
+                <AssemblyFileInfo>
+                  <ContentFileInfo i:nil="true" />
+                  <ContentPath>_catalog_/database/f0cdc94b-1144-4b40-bc03-8b1a720e0a11/assembly/57a57f0c-e742-4517-b854-2b9bdeb85036/__codeBehind_tl2owywh.na0.dll</ContentPath>
+                  <OriginalPath i:nil="true" />
+                  <Type>ASSEMBLY</Type>
+                </AssemblyFileInfo>
+              </Files>
+              <IsUserDefined>true</IsUserDefined>
+              <IsVisible>true</IsVisible>
+            </Entity>
+          </MetadataOperation>
+          <MetadataOperation i:type="DropEntityOperation">
+            <DisposeDataArtifacts>true</DisposeDataArtifacts>
+            <Entity>
+              <Name>
+                <Server>localcomputeaccount</Server>
+                <FirstPart>DemoDatabase</FirstPart>
+                <SecondPart>__codeBehind_tl2owywh.na0</SecondPart>
+              </Name>
+              <Version>57a57f0c-e742-4517-b854-2b9bdeb85036</Version>
+            </Entity>
+            <TypeName>Scope.Metadata.Contract.AssemblyInfo</TypeName>
+          </MetadataOperation>
+        </OperationsSequence>
+        <ScopeJobInfo>
+          <JobGuid>00000000-0000-0000-0000-000000000000</JobGuid>
+          <JobName></JobName>
+        </ScopeJobInfo>
+      </MetadataJob>
+    </metadataoperation>
+  </graph>
+  <Scopescript>// Generated Code Behind Header
+USE DATABASE [DemoDatabase];
+
+CREATE ASSEMBLY [__codeBehind_tl2owywh.na0] FROM 0x4D5A90000300000004000000FFFF0000B800000000000000400000000000000000000000000000000000000000000000000000000000000000000000800000000E1FBA0E00B409CD21B8014CCD21546869732070726F6772616D2063616E6E6F742062652072756E20696E20444F53206D6F64652E0D0D0A2400000000000000504500004C01030081DDEF590000000000000000E00002210B010B000006000000060000000000002E240000002000000040000000000010002000000002000004000000000000000400000000000000008000000002000000000000030040850000100000100000000010000010000000000000100000000000000000000000DC2300004F00000000400000E802000000000000000000000000000000000000006000000C00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000200000080000000000000000000000082000004800000000000000000000002E7465787400000034040000002000000006000000020000000000000000000000000000200000602E72737263000000E8020000004000000004000000080000000000000000000000000000400000402E72656C6F6300000C0000000060000000020000000C00000000000000000000000000004000004200000000000000000000000000000000102400000000000048000000020005007C200000600300000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000133003001800000001000011280300000A0A06280400000A026F0500000A6F0600000A2A1E02280700000A2A42534A4201000100000000000C00000076342E302E33303331390000000005006C00000010010000237E00007C0100006C01000023537472696E677300000000E80200000800000023555300F0020000100000002347554944000000000300006000000023426C6F620000000000000002000001471502000900000000FA2533001600000100000006000000020000000200000001000000070000000200000001000000010000000100000000000A0001000000000006005F0058000600A60086000600C600860006001B01FE0006003501290106005001FE0000000000010000000000010001000100100028003B00050001000100502000000000960066000A0001007420000000008618740010000200000001007A0011007400140019007400100021002201190029003E011E0029004701230031005E0129000900740010002E000B0035002E0013003E003000048000000000000000000000000000000000E400000004000000000000000000000001004F00000000000000003C4D6F64756C653E005F5F636F6465426568696E645F746C326F777977682E6E61302E646C6C00436C65616E73696E6746756E6374696F6E73005553514C4170706C69636174696F6E44656D6F006D73636F726C69620053797374656D004F626A6563740047657453484132353648617368002E63746F7200696E707574537472696E670053797374656D2E52756E74696D652E436F6D70696C6572536572766963657300436F6D70696C6174696F6E52656C61786174696F6E734174747269627574650052756E74696D65436F6D7061746962696C697479417474726962757465005F5F636F6465426568696E645F746C326F777977682E6E61300053797374656D2E53656375726974792E43727970746F67726170687900534841323536004372656174650053797374656D2E5465787400456E636F64696E67006765745F555446380047657442797465730048617368416C676F726974686D00436F6D707574654861736800000000032000000000009F934CD857593D40A5A6C8748502D43E0008B77A5C561934E0890500011D050E032000010420010108040000121104000012150520011D050E0620011D051D0504070112190801000800000000001E01000100540216577261704E6F6E457863657074696F6E5468726F7773010000000424000000000000000000001E24000000200000000000000000000000000000000000000000000010240000000000000000000000005F436F72446C6C4D61696E006D73636F7265652E646C6C0000000000FF250020001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001001000000018000080000000000000000000000000000001000100000030000080000000000000000000000000000001000000000048000000584000008C02000000000000000000008C0234000000560053005F00560045005200530049004F004E005F0049004E0046004F0000000000BD04EFFE00000100000000000000000000000000000000003F000000000000000400000002000000000000000000000000000000440000000100560061007200460069006C00650049006E0066006F00000000002400040000005400720061006E0073006C006100740069006F006E00000000000000B004EC010000010053007400720069006E006700460069006C00650049006E0066006F000000C801000001003000300030003000300034006200300000002C0002000100460069006C0065004400650073006300720069007000740069006F006E000000000020000000300008000100460069006C006500560065007200730069006F006E000000000030002E0030002E0030002E00300000005C001E00010049006E007400650072006E0061006C004E0061006D00650000005F005F0063006F006400650042006500680069006E0064005F0074006C0032006F0077007900770068002E006E00610030002E0064006C006C0000002800020001004C006500670061006C0043006F00700079007200690067006800740000002000000064001E0001004F0072006900670069006E0061006C00460069006C0065006E0061006D00650000005F005F0063006F006400650042006500680069006E0064005F0074006C0032006F0077007900770068002E006E00610030002E0064006C006C000000340008000100500072006F006400750063007400560065007200730069006F006E00000030002E0030002E0030002E003000000038000800010041007300730065006D0062006C0079002000560065007200730069006F006E00000030002E0030002E0030002E00300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002000000C000000303400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;
+REFERENCE ASSEMBLY [__codeBehind_tl2owywh.na0];
+
+DEPLOY RESOURCE @"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Core.dll";
+// Generated Code Behind Header
+DECLARE @InputFile string  = @"C:\Users\slowd\OneDrive\Documents\Allegient\Sells Group\DataLakeStorage\Raw\Sells_Group\Demographic\AppendReport\AppendReport_201705_46201.csv";
+DECLARE @OutputFile string = @"C:\Users\slowd\OneDrive\Documents\Allegient\Sells Group\DataLakeStorage\Stage\Sells_Group\Demographic\AppendReport\AppendReport_201705_46201.csv";
+
+@SourceData =
+    EXTRACT 
+            [in_first_name] string,
+            [in_last_name] string,
+            [in_seq] int?,
+            [in_subseq] int?,
+            [Address1] string,
+            [Address2] string,
+            [City] string,
+            [State] string,
+            [ZIP_Code] int?,
+            [First_Name] string,
+            [Last_Name] string,
+            [in_cvtseq] string,
+            [in_zip_code] string,
+            [I1 Combined Adult Age -2 bytes] string,
+            [Individual Education] string,
+            [Marital Status] string,
+            [Mosaic Household] string,
+            [ADULT GENDER/COMBINED AGE] string,
+            [Year Built (Enhanced)] int?,
+            [Political Affiliation] string,
+            [Number Of Adults In Household] string,
+            [Number Of Children (Maximum Of 8 Children Per Household)] string,
+            [Dwelling Type] string,
+            [Length Of Residence] string,
+            [Multi-Company Direct Mail Responder - Living Units Level] string,
+            [Gender Code] string,
+            [Date of Birth/Combined Adult Age] int?,
+            [Estimated Current Home Value] int?,
+            [I1 Combined Age] string,
+            [ChoiceScore Bundle] string,
+            [ChoiceScore Prospect Segment] string,
+            [ChoiceScore Prospect Model Score] int?,
+            [ChoiceScore Good versus Bad Score] string,
+            [Enhancement Mandatory Append1] string,
+            [Enhancement Mandatory Append2] string,
+            [Enhancement Mandatory Append3] string,
+            [Combined Homeowner] string,
+            [Online Overall] string,
+            [Retail Overall] string,
+            [Estimated Current Home Value2] string,
+            [Presence of Children 0-18] string,
+            [ConsumerView Profitability Score] string,
+            [Person 1: Occupation Group V2] string,
+            [Est Household Income V5] string
+    FROM @InputFile
+    USING Extractors.Csv(silent:true, skipFirstNRows:1);
+
+@CleansedData =
+    SELECT USQLApplicationDemo.CleansingFunctions.GetSHA256Hash([in_first_name] + [in_last_name]) AS NameHash,
+           [in_seq],
+           [in_subseq],
+           [Address1],
+           [Address2],
+           [City],
+           [State],
+           [ZIP_Code],
+           [First_Name],
+           [Last_Name],
+           [in_cvtseq],
+           [in_zip_code],
+           [I1 Combined Adult Age -2 bytes],
+           [Individual Education],
+           [Marital Status],
+           [Mosaic Household],
+           [ADULT GENDER/COMBINED AGE],
+           [Year Built (Enhanced)],
+           [Political Affiliation],
+           [Number Of Adults In Household],
+           [Number Of Children (Maximum Of 8 Children Per Household)],
+           [Dwelling Type],
+           [Length Of Residence],
+           [Multi-Company Direct Mail Responder - Living Units Level],
+           [Gender Code],
+           [Date of Birth/Combined Adult Age],
+           [Estimated Current Home Value],
+           [I1 Combined Age],
+           [ChoiceScore Bundle],
+           [ChoiceScore Prospect Segment],
+           [ChoiceScore Prospect Model Score],
+           [ChoiceScore Good versus Bad Score],
+           [Enhancement Mandatory Append1],
+           [Enhancement Mandatory Append2],
+           [Enhancement Mandatory Append3],
+           [Combined Homeowner],
+           [Online Overall],
+           [Retail Overall],
+           [Estimated Current Home Value2],
+           [Presence of Children 0-18],
+           [ConsumerView Profitability Score],
+           [Person 1: Occupation Group V2],
+           [Est Household Income V5]
+    FROM @SourceData;
+
+    
+
+OUTPUT @CleansedData   
+    TO @OutputFile
+    USING Outputters.Csv(quoting:false, outputHeader:true );
+// Generated Code Behind Footer
+USE DATABASE [DemoDatabase];
+USE SCHEMA [dbo];
+
+DROP ASSEMBLY [__codeBehind_tl2owywh.na0];
+// Generated Code Behind Footer
+</Scopescript>
+  <Optimization succeeded="true" time="00:00:00.3321006" latency="-1" totalCost="-1" />
+  <ScopeVertexAnnotations>
+    <ScopeVertex name="SV1_Extract">
+      <Operation annotation="EXTRACT USING IExtractor" />
+      <Operation annotation="OUTPUT USING IOutputter" />
+    </ScopeVertex>
+  </ScopeVertexAnnotations>
+</ScriptAndGraph>

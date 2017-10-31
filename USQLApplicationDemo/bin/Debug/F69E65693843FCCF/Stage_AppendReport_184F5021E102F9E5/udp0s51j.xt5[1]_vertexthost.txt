@@ -1,0 +1,20 @@
+[Info] (c:\kv\private\cosmos\scope\localrun\localvertexhost\localvertexhost.cpp, wmain:369) (LocaVertexHost) Runtime engine initialized
+[Info] (clrmemoryhost.cpp, ScopeEngine::ScopeClrHostMemoryManager::CreateMalloc:242) (CLRMemoryHost) CLR requested IHostMalloc with flags 1
+[Info] (entry.cpp, ScopeEngine::AddBadMemoryNotification:164) (BadMemoryNotification) Bad Memory Notification Routine installed
+[Info] (iomanager.cpp, ScopeEngine::IOManagerImpl::AddStream:258) (IOManager) add stream C:\Users\slowd\OneDrive\Documents\Allegient\Sells Group\DataLakeStorage\Raw\Sells_Group\Demographic\AppendReport\AppendReport_201705_46201.csv node SV1_Extract_execute:__defaultInput:input#0 into devices
+[Info] (iomanager.cpp, ScopeEngine::IOManagerImpl::AddStream:258) (IOManager) add stream C:\Repositories\AzureDataLakeDemos\USQLApplicationDemo\bin\Debug\F69E65693843FCCF\_Temp\Stage_AppendReport_184F5021E102F9E5\scopetmpfile._SV1_Extract_out0 node SV1_Extract_execute:__defaultOutput:output#0 into devices
+[Info] (entry.cpp, ScopeEngine::RemoveBadMemoryNotification:177) (BadMemoryNotification) Bad Memory Notification Routine uninstalled
+[Info] (entry.cpp, ScopeEngine::AddBadMemoryNotification:164) (BadMemoryNotification) Bad Memory Notification Routine installed
+[Info] (entry.cpp, ScopeEngine::RemoveBadMemoryNotification:177) (BadMemoryNotification) Bad Memory Notification Routine uninstalled
+[Info] (entry.cpp, ScopeEngine::AddBadMemoryNotification:164) (BadMemoryNotification) Bad Memory Notification Routine installed
+[Info] (entry.cpp, ScopeEngine::RemoveBadMemoryNotification:177) (BadMemoryNotification) Bad Memory Notification Routine uninstalled
+[Info] (entry.cpp, ScopeEngine::AddBadMemoryNotification:164) (BadMemoryNotification) Bad Memory Notification Routine installed
+[Info] (entry.cpp, ScopeEngine::RemoveBadMemoryNotification:177) (BadMemoryNotification) Bad Memory Notification Routine uninstalled
+[Info] (entry.cpp, ScopeEngine::AddBadMemoryNotification:164) (BadMemoryNotification) Bad Memory Notification Routine installed
+[Info] (entry.cpp, ScopeEngine::RemoveBadMemoryNotification:177) (BadMemoryNotification) Bad Memory Notification Routine uninstalled
+[Info] (c:\kv\private\cosmos\scope\scopeengine\src\iomanager.h, ScopeEngine::IOManagerImpl::Reset:809) () IOManager Reset
+[Info] (c:\kv\private\cosmos\scope\localrun\localvertexhost\localvertexhost.cpp, wmain:379) (LocaVertexHost) Execution finished in    0.70 sec
+[Info] (clrmemoryhost.cpp, ScopeEngine::ScopeClrHostGCManager::SuspensionEnding:450) (CLRMemoryHost) Garbage collection finished for generation -1
+[Info] (clrmemoryhost.cpp, ScopeEngine::CLRMemorySize::LogStats:105) (CLRMemoryHost) AllocSize=5480448; HeapSize=1556676; VirtualAddressSize=888832; AvailableReporting=5360783164; AvailableUsage=21466910524
+[Info] (clrmemoryhost.cpp, ScopeEngine::CLRMemorySize::LogStats:105) (CLRMemoryHost) AllocSize=5480448; HeapSize=1556676; VirtualAddressSize=888832; AvailableReporting=5360783164; AvailableUsage=21466910524
+[Info] (clrmemoryhost.cpp, ScopeEngine::CLRMemorySize::LogStats:105) (CLRMemoryHost) AllocSize=5480448; HeapSize=1556676; VirtualAddressSize=888832; AvailableReporting=5360783164; AvailableUsage=21466910524

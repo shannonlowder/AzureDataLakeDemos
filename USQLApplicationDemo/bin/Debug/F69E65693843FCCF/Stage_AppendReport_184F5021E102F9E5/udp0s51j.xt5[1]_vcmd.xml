@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vertexCommand command="Start" jobType="None" managedMemorySize="322961408" vertexArg="ScopeEngine.dll -scopeVertex SV1_Extract -vertexNumber 0">
+  <inputs>
+    <input name="" path="C:\Users\slowd\OneDrive\Documents\Allegient\Sells Group\DataLakeStorage\Raw\Sells_Group\Demographic\AppendReport\AppendReport_201705_46201.csv" blockAligned="True" globalStartOffset="0" localStartOffset="0" localEndOffset="4347534" length="4347534" />
+  </inputs>
+  <outputs>
+    <output path="C:\Repositories\AzureDataLakeDemos\USQLApplicationDemo\bin\Debug\F69E65693843FCCF\_Temp\Stage_AppendReport_184F5021E102F9E5\scopetmpfile._SV1_Extract_out0" />
+  </outputs>
+</vertexCommand>

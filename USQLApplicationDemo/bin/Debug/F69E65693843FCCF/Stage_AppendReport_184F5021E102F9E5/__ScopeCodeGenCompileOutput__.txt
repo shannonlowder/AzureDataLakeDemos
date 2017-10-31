@@ -1,0 +1,202 @@
+*** Entering compilation, time elapsed until this point: 00:00:03.3372751
+*** Done with C# compilation, time elapsed until this point: 00:00:03.6577808
+#CPP cl.exe compile (iteration 1/1) -- Managed
+#CPP stdout:
+__ScopeCodeGenEngine__.dll.cpp
+ENC_CWD=C:\Repositories\AzureDataLakeDemos\USQLApplicationDemo\bin\Debug\F69E65693843FCCF\Stage_AppendReport_184F5021E102F9E5
+ENC_CL=C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Microsoft Azure Data Lake Tools for Visual Studio 2015\2.2.2100.0\CppSdk\VC\bin\cl.exe
+ENC_SRC=__ScopeCodeGenEngine__.dll.cpp
+ENC_PDB=C:\Repositories\AzureDataLakeDemos\USQLApplicationDemo\bin\Debug\F69E65693843FCCF\Stage_AppendReport_184F5021E102F9E5\vc140.pdb
+ENC_CMD=-nologo -c -bigobj -Bt+ -DWIN32_LEAN_AND_MEAN -MD -W4 -WX -Zi -O2 -Bd -d2cgsummary -EHa -clr -DCOMPILE_MANAGED -wd4947 -wd4945 -wd4564 -FUSystem.dll -FUSystem.Data.dll -FUSystem.Core.dll -FUSystem.Runtime.Serialization.dll -FUC:\Repositories\AzureDataLakeDemos\USQLApplicationDemo\bin\Debug\F69E65693843FCCF\Microsoft.Scope.Interfaces.dll -FUC:\Repositories\AzureDataLakeDemos\USQLApplicationDemo\bin\Debug\F69E65693843FCCF\Microsoft.Analytics.Interfaces.dll -FUC:\Repositories\AzureDataLakeDemos\USQLApplicationDemo\bin\Debug\F69E65693843FCCF\Microsoft.Analytics.Types.dll -FUC:\Repositories\AzureDataLakeDemos\USQLApplicationDemo\bin\Debug\F69E65693843FCCF\ScopeEngineManaged.dll -FUC:\Repositories\AzureDataLakeDemos\USQLApplicationDemo\bin\Debug\F69E65693843FCCF\Stage_AppendReport_184F5021E102F9E5\__codeBehind_tl2owywh.na0.dll -FUC:\Repositories\AzureDataLakeDemos\USQLApplicationDemo\bin\Debug\F69E65693843FCCF\Stage_AppendReport_184F5021E102F9E5\__ScopeCodeGen__.dll -AI"C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Microsoft Azure Data Lake Tools for Visual Studio 2015\2.2.2100.0\LocalRunSDK" -AI"C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Microsoft Azure Data Lake Tools for Visual Studio 2015\2.2.2100.0\CppSdk\CLR" -wd4125 -wd4627 -wd4800 -wd4702 -DUSE_SSE4_2 -I"C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Microsoft Azure Data Lake Tools for Visual Studio 2015\2.2.2100.0\CppSdk\VC\include" -I"C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Microsoft Azure Data Lake Tools for Visual Studio 2015\2.2.2100.0\CppSdk\SDK\include" -I"C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Microsoft Azure Data Lake Tools for Visual Studio 2015\2.2.2100.0\CppSdk\SDK\include\um" -I"C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Microsoft Azure Data Lake Tools for Visual Studio 2015\2.2.2100.0\CppSdk\SDK\include\shared" -I"C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Microsoft Azure Data Lake Tools for Visual Studio 2015\2.2.2100.0\CppSdk\SDK\include\ucrt" -I"C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Microsoft Azure Data Lake Tools for Visual Studio 2015\2.2.2100.0\LocalRunSDK" -IC:\Repositories\AzureDataLakeDemos\USQLApplicationDemo\bin\Debug\F69E65693843FCCF\Stage_AppendReport_184F5021E102F9E5 -DCOMPILE_ALL_VERTICES -DCOMPILE_INIT_SHUTDOWN -TP -X
+`C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Microsoft Azure Data Lake Tools for Visual Studio 2015\2.2.2100.0\CppSdk\VC\bin\c1xx.dll -zm0x00007FF6F7E05570 -il C:\Users\slowd\AppData\Local\Temp\_CL_75fbdc44 -typedil -f __ScopeCodeGenEngine__.dll.cpp -Ze -D_MSC_EXTENSIONS -Zp16 -ZB64 -D_INTEGRAL_MAX_BITS=64 -pc \:/ -Fdvc140.pdb -D_MSC_VER=1900 -D_MSC_FULL_VER=190023506 -D_MSC_BUILD=0 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -GS -GR -D_CPPRTTI -Zc:forScope -Zc:wchar_t -nologo -DWIN32_LEAN_AND_MEAN -D_MT -D_DLL -W 4 -WX -Zi -GF -Og -Oi -Ot -Oy -Bd -EHa -EHa -D_CPPUNWIND -Gil -D_MANAGED -D_M_CEE=001 -DCOMPILE_MANAGED -wd 4947 -wd 4945 -wd 4564 -FU System.dll -FU System.Data.dll -FU System.Core.dll -FU System.Runtime.Serialization.dll -FU C:\Repositories\AzureDataLakeDemos\USQLApplicationDemo\bin\Debug\F69E65693843FCCF\Microsoft.Scope.Interfaces.dll -FU C:\Repositories\AzureDataLakeDemos\USQLApplicationDemo\bin\Debug\F69E65693843FCCF\Microsoft.Analytics.Interfaces.dll -FU C:\Repositories\AzureDataLakeDemos\USQLApplicationDemo\bin\Debug\F69E65693843FCCF\Microsoft.Analytics.Types.dll -FU C:\Repositories\AzureDataLakeDemos\USQLApplicationDemo\bin\Debug\F69E65693843FCCF\ScopeEngineManaged.dll -FU C:\Repositories\AzureDataLakeDemos\USQLApplicationDemo\bin\Debug\F69E65693843FCCF\Stage_AppendReport_184F5021E102F9E5\__codeBehind_tl2owywh.na0.dll -FU C:\Repositories\AzureDataLakeDemos\USQLApplicationDemo\bin\Debug\F69E65693843FCCF\Stage_AppendReport_184F5021E102F9E5\__ScopeCodeGen__.dll -AI C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Microsoft Azure Data Lake Tools for Visual Studio 2015\2.2.2100.0\LocalRunSDK -AI C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Microsoft Azure Data Lake Tools for Visual Studio 2015\2.2.2100.0\CppSdk\CLR -wd 4125 -wd 4627 -wd 4800 -wd 4702 -DUSE_SSE4_2 -I C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Microsoft Azure Data Lake Tools for Visual Studio 2015\2.2.2100.0\CppSdk\VC\include -I C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Microsoft Azure Data Lake Tools for Visual Studio 2015\2.2.2100.0\CppSdk\SDK\include -I C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Microsoft Azure Data Lake Tools for Visual Studio 2015\2.2.2100.0\CppSdk\SDK\include\um -I C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Microsoft Azure Data Lake Tools for Visual Studio 2015\2.2.2100.0\CppSdk\SDK\include\shared -I C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Microsoft Azure Data Lake Tools for Visual Studio 2015\2.2.2100.0\CppSdk\SDK\include\ucrt -I C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Microsoft Azure Data Lake Tools for Visual Studio 2015\2.2.2100.0\LocalRunSDK -I C:\Repositories\AzureDataLakeDemos\USQLApplicationDemo\bin\Debug\F69E65693843FCCF\Stage_AppendReport_184F5021E102F9E5 -DCOMPILE_ALL_VERTICES -DCOMPILE_INIT_SHUTDOWN -Fo__ScopeCodeGenEngine__.dllManaged.obj -clrver4.07.2115.0 -D__CLR_VER=40702115 -sqm C:\Users\slowd\AppData\Local\Microsoft\VSCommon\14.0\SQM\sqmcpp.log'
+time(C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Microsoft Azure Data Lake Tools for Visual Studio 2015\2.2.2100.0\CppSdk\VC\bin\c1xx.dll)=3.91847s < 579427719559 - 579435355154 > BB [C:\Repositories\AzureDataLakeDemos\USQLApplicationDemo\bin\Debug\F69E65693843FCCF\Stage_AppendReport_184F5021E102F9E5\__ScopeCodeGenEngine__.dll.cpp]
+`C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Microsoft Azure Data Lake Tools for Visual Studio 2015\2.2.2100.0\CppSdk\VC\bin\c2.dll -il C:\Users\slowd\AppData\Local\Temp\_CL_75fbdc44 -typedil -f __ScopeCodeGenEngine__.dll.cpp -dos -Fdvc140.pdb -GS -bigobj -MD -W 4 -WX -Zi -Og -Ob2 -Gy -Bd -cgsummary -EHa -EHa -Gil -Fo__ScopeCodeGenEngine__.dllManaged.obj'
+Code Generation Summary
+	Total Function Count: 1677
+	Elapsed Time: 1.277 sec
+	Total Compilation Time: 1.265 sec
+	Efficiency: 99.1%
+	Average time per function: 0.001 sec
+	Anomalistic Compile Times: 68
+		?WriteRuntimeStats@Statistics@IncrementalAllocator@ScopeEngine@@$$FQEBAXAEAVTreeNode@3@J@Z: 0.030 sec, 0 instrs
+		?Columns@?$ManagedRow@VExtract_0_Data0@@@ScopeEngine@@$$FQEAMP$01EAPE$AAVSqlIpColumn@ScopeEngineManaged@@P$01EAPE$AAVString@System@@@Z: 0.022 sec, 0 instrs
+		??0exception@std@@$$FQEAA@AEBV01@@Z: 0.020 sec, 0 instrs
+		?ReadInternal@?$SqlIpRowStream@VNewLineDelimiter@ScopeEngine@@@ScopeEngine@@$$FIE$AAMHP$01EAEHH_N@Z: 0.017 sec, 0 instrs
+		?Seek@?$ScopeCosmosInputStream@VCosmosInput@ScopeEngine@@@ScopeEngine@@$$FUE$AAM_J_JW4SeekOrigin@IO@System@@@Z: 0.016 sec, 0 instrs
+		?Columns@?$ManagedRow@VProcess_1_Data0@@@ScopeEngine@@$$FQEAMP$01EAPE$AAVSqlIpColumn@ScopeEngineManaged@@P$01EAPE$AAVString@System@@@Z: 0.016 sec, 0 instrs
+		?ReadInternal@?$SqlIpRowStream@VFixedLengthDelimiter@ScopeEngine@@@ScopeEngine@@$$FIE$AAMHP$01EAEHH_N@Z: 0.012 sec, 0 instrs
+		?Init@IncrementalAllocator@ScopeEngine@@$$FQEAAX_KPEBD@Z: 0.012 sec, 0 instrs
+		?WriteRuntimeStats@CosmosOutput@ScopeEngine@@$$FQEAAXAEAVTreeNode@2@@Z: 0.012 sec, 0 instrs
+		?_Grow@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@$$FQEAA_N_K_N@Z: 0.011 sec, 0 instrs
+		?str@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@XZ: 0.010 sec, 0 instrs
+		??$?HDU?$char_traits@D@std@@V?$allocator@D@1@@std@@$$FYA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@PEBDAEBV10@@Z: 0.010 sec, 0 instrs
+		?_Copy@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@$$FQEAAX_K0@Z: 0.010 sec, 0 instrs
+		?_Copy@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQEAAX_K0@Z: 0.009 sec, 0 instrs
+		?compare@?$char_traits@D@std@@$$FSAHPEBD0_K@Z: 0.009 sec, 0 instrs
+		??$forward@AEAPEAD@std@@$$FYAAEAPEADAEAPEAD@Z: 0.009 sec, 0 instrs
+		??$?6U?$char_traits@D@std@@@std@@$$FYAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@PEBD@Z: 0.009 sec, 0 instrs
+		??0?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@$$FQEAA@AEBV01@@Z: 0.009 sec, 0 instrs
+		?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQEAAAEAV12@AEBV12@_K1@Z: 0.009 sec, 0 instrs
+		?Init@IncrementalAllocator@ScopeEngine@@$$FQEAAX_KAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z: 0.008 sec, 0 instrs
+		?WriteRuntimeStats@ScopeCosmosOutputStream@ScopeEngine@@$$FQE$AAMXAEAVTreeNode@2@@Z: 0.008 sec, 0 instrs
+		?SaveState@CosmosOutput@ScopeEngine@@$$FQEAAXAEAVBinaryOutputStream@2@@Z: 0.008 sec, 0 instrs
+		?push_back@?$vector@PEBUBufferDescriptor@ScopeEngine@@V?$allocator@PEBUBufferDescriptor@ScopeEngine@@@std@@@std@@$$FQEAAX$$QEAPEBUBufferDescriptor@ScopeEngine@@@Z: 0.008 sec, 0 instrs
+		??4?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQEAAAEAV01@AEBV01@@Z: 0.008 sec, 0 instrs
+		??0?$SqlIpProcessor@VExtract_0_Data0@@VProcess_1_Data0@@@ScopeEngine@@$$FAEAM@PE$AAVIProcessor@Interfaces@Analytics@Microsoft@@PE$AAV?$SqlIpInputRowset@VExtract_0_Data0@@@1@PE$AAVSqlIpUpdatableRow@ScopeEngineManaged@@P6MXPE$AAVIRow@345@AEAVProcess_1_Data0@@PEAVIncrementalAllocator@1@@ZP6AXXZP6A_NAEAVExtract_0_Data0@@45@ZP$01EAPE$AAVString@System@@P$01EAPE$AAVString@System@@@Z: 0.007 sec, 0 instrs
+		?assign@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@$$FQEAAAEAV12@AEBV12@_K1@Z: 0.007 sec, 0 instrs
+		?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQEAAAEAV12@PEBD_K@Z: 0.007 sec, 0 instrs
+		??0IncrementalAllocator@ScopeEngine@@$$FQEAA@_KPEBD@Z: 0.007 sec, 0 instrs
+		??0?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQEAA@H@Z: 0.007 sec, 0 instrs
+		?Write@CosmosOutput@ScopeEngine@@$$FQEAAXPEBDI@Z: 0.007 sec, 0 instrs
+		?StreamName@CosmosOutput@ScopeEngine@@$$FQEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ: 0.007 sec, 0 instrs
+		??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQEAA@AEBV01@@Z: 0.007 sec, 0 instrs
+		??$_Integral_to_string@_J@std@@$$FYA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@PEBD_J@Z: 0.006 sec, 0 instrs
+		??0RowEntityAllocator@ScopeEngine@@$$FQEAA@_KPEBDW4ContentType@01@@Z: 0.006 sec, 0 instrs
+		??$_Integral_to_string@_K@std@@$$FYA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@PEBD_K@Z: 0.006 sec, 0 instrs
+		?CommitSlow@IncrementalAllocator@ScopeEngine@@$$FQEAAX_K@Z: 0.006 sec, 0 instrs
+		??1IncrementalAllocator@ScopeEngine@@$$FQEAA@XZ: 0.006 sec, 0 instrs
+		??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQEAA@PEBD@Z: 0.006 sec, 0 instrs
+		__t2m@??0exception@std@@QEAA@AEBV01@@Z: 0.006 sec, 0 instrs
+		??0?$vector@UParameterValue@ScopeEngine@@V?$allocator@UParameterValue@ScopeEngine@@@std@@@std@@$$FQEAA@AEBV01@@Z: 0.006 sec, 0 instrs
+		?StreamName@CosmosInput@ScopeEngine@@$$FQEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ: 0.006 sec, 0 instrs
+		??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQEAA@PEBD_K@Z: 0.006 sec, 0 instrs
+		?ColumnOffsets@?$ManagedRow@VExtract_0_Data0@@@ScopeEngine@@$$FQEAMP$01EAVColumnOffsetId@ScopeEngineManaged@@XZ: 0.006 sec, 0 instrs
+		?FlushPage@CosmosOutput@ScopeEngine@@$$FAEAAX_N0@Z: 0.006 sec, 0 instrs
+		??0Statistics@IncrementalAllocator@ScopeEngine@@$$FQEAA@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_KAEBUStatCounters@12@@Z: 0.006 sec, 0 instrs
+		?WriteRuntimeStats@IncrementalAllocator@ScopeEngine@@$$FUEBAXAEAVTreeNode@2@J@Z: 0.006 sec, 0 instrs
+		?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQEAAAEAV12@AEBV12@@Z: 0.006 sec, 0 instrs
+		?<MarshalCopy>@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@$$FSMXPEAV12@0@Z: 0.006 sec, 0 instrs
+		?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQEAAAEAV12@PEBD_K@Z: 0.006 sec, 0 instrs
+		??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQEAA@$$QEAV01@@Z: 0.006 sec, 0 instrs
+		?Write@?$BinaryOutputStreamBase@VCosmosOutput@ScopeEngine@@@ScopeEngine@@$$FQEAAXPEBDI@Z: 0.006 sec, 0 instrs
+		?_Grow@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQEAA_N_K_N@Z: 0.006 sec, 0 instrs
+		?Write@ScopeCosmosOutputStream@ScopeEngine@@$$FUE$AAMXP$01EAEHH@Z: 0.006 sec, 0 instrs
+		?GetStatistics@IncrementalAllocator@ScopeEngine@@$$FQEBA?AUStatistics@12@XZ: 0.006 sec, 0 instrs
+		?pbackfail@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FMEAAHH@Z: 0.006 sec, 0 instrs
+		?<MarshalCopy>@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FSMXPEAV12@0@Z: 0.006 sec, 0 instrs
+		?SaveState@ScopeCosmosOutputStream@ScopeEngine@@$$FQE$AAMXAEAVBinaryOutputStream@2@@Z: 0.005 sec, 0 instrs
+		??$Write@I@?$BinaryOutputStreamBase@VCosmosOutput@ScopeEngine@@@ScopeEngine@@$$FQEAAXAEBI@Z: 0.005 sec, 0 instrs
+		??$MakeSqlIp@VExtract_0_Data0@@VProcess_1_Data0@@$02@ScopeProcessorManagedFactory@ScopeEngine@@$$FSAPEAV?$ScopeProcessorManaged@VExtract_0_Data0@@VProcess_1_Data0@@@1@PEAV?$OperatorDelegate@VExtract_0_Data0@@@1@@Z: 0.005 sec, 0 instrs
+		??Y?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQEAAAEAV01@PEBD@Z: 0.005 sec, 0 instrs
+		?Seek@CosmosInput@ScopeEngine@@$$FQEAA_K_K@Z: 0.005 sec, 0 instrs
+		?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQEAAAEAV12@_KD@Z: 0.005 sec, 0 instrs
+		?ExpandPage@CosmosOutput@ScopeEngine@@$$FQEAA_KXZ: 0.005 sec, 0 instrs
+		?overflow@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FMEAAHH@Z: 0.005 sec, 0 instrs
+		?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQEAAAEAV12@PEBD@Z: 0.005 sec, 0 instrs
+		?FilterTransformRow@?$RowTransformPolicy@VExtract_0_Data0@@VProcess_1_Data0@@$02@ScopeEngine@@$$FSA_NAEAVExtract_0_Data0@@AEAVProcess_1_Data0@@PEAVIncrementalAllocator@2@@Z: 0.005 sec, 0 instrs
+		?_Reallocate@?$vector@PEBUBufferDescriptor@ScopeEngine@@V?$allocator@PEBUBufferDescriptor@ScopeEngine@@@std@@@std@@$$FIEAAX_K@Z: 0.005 sec, 0 instrs
+		?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQEAAAEAV12@PEBD@Z: 0.005 sec, 0 instrs
+time(C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Microsoft Azure Data Lake Tools for Visual Studio 2015\2.2.2100.0\CppSdk\VC\bin\c2.dll)=1.49325s < 579435360624 - 579438270405 > BB [C:\Repositories\AzureDataLakeDemos\USQLApplicationDemo\bin\Debug\F69E65693843FCCF\Stage_AppendReport_184F5021E102F9E5\__ScopeCodeGenEngine__.dll.cpp]
+
+#CPP stderr:
+
+#CPP cl.exe pre-compile (iteration 0/0) -- Native
+#CPP stdout:
+__ScopeCodeGenEngine__.dll.cpp
+ENC_CWD=C:\Repositories\AzureDataLakeDemos\USQLApplicationDemo\bin\Debug\F69E65693843FCCF\Stage_AppendReport_184F5021E102F9E5
+ENC_CL=C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Microsoft Azure Data Lake Tools for Visual Studio 2015\2.2.2100.0\CppSdk\VC\bin\cl.exe
+ENC_SRC=__ScopeCodeGenEngine__.dll.cpp
+ENC_PDB=C:\Repositories\AzureDataLakeDemos\USQLApplicationDemo\bin\Debug\F69E65693843FCCF\Stage_AppendReport_184F5021E102F9E5\__ScopeCodeGenEngine__.dllNative_pch.pdb
+ENC_CMD=-nologo -c -bigobj -Bt+ -DWIN32_LEAN_AND_MEAN -MD -W4 -WX -Zi -O2 -Bd -d2cgsummary -EHa -DCOMPILE_NATIVE -wd4125 -wd4627 -wd4800 -wd4702 -DUSE_SSE4_2 -I"C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Microsoft Azure Data Lake Tools for Visual Studio 2015\2.2.2100.0\CppSdk\VC\include" -I"C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Microsoft Azure Data Lake Tools for Visual Studio 2015\2.2.2100.0\CppSdk\SDK\include" -I"C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Microsoft Azure Data Lake Tools for Visual Studio 2015\2.2.2100.0\CppSdk\SDK\include\um" -I"C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Microsoft Azure Data Lake Tools for Visual Studio 2015\2.2.2100.0\CppSdk\SDK\include\shared" -I"C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Microsoft Azure Data Lake Tools for Visual Studio 2015\2.2.2100.0\CppSdk\SDK\include\ucrt" -I"C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Microsoft Azure Data Lake Tools for Visual Studio 2015\2.2.2100.0\LocalRunSDK" -IC:\Repositories\AzureDataLakeDemos\USQLApplicationDemo\bin\Debug\F69E65693843FCCF\Stage_AppendReport_184F5021E102F9E5 -Yc -FpC:\Repositories\AzureDataLakeDemos\USQLApplicationDemo\bin\Debug\F69E65693843FCCF\Stage_AppendReport_184F5021E102F9E5\__ScopeCodeGenEngine__.dllNative_pch.pch -TP -X
+`C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Microsoft Azure Data Lake Tools for Visual Studio 2015\2.2.2100.0\CppSdk\VC\bin\c1xx.dll -zm0x00007FF6F7E05570 -il C:\Users\slowd\AppData\Local\Temp\_CL_257948b5 -typedil -f __ScopeCodeGenEngine__.dll.cpp -Ze -D_MSC_EXTENSIONS -Zp16 -ZB64 -D_INTEGRAL_MAX_BITS=64 -pc \:/ -D_MSC_VER=1900 -D_MSC_FULL_VER=190023506 -D_MSC_BUILD=0 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -GS -GR -D_CPPRTTI -Zc:forScope -Zc:wchar_t -nologo -DWIN32_LEAN_AND_MEAN -D_MT -D_DLL -W 4 -WX -Zi -GF -Og -Oi -Ot -Oy -Bd -EHa -D_CPPUNWIND -DCOMPILE_NATIVE -wd 4125 -wd 4627 -wd 4800 -wd 4702 -DUSE_SSE4_2 -I C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Microsoft Azure Data Lake Tools for Visual Studio 2015\2.2.2100.0\CppSdk\VC\include -I C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Microsoft Azure Data Lake Tools for Visual Studio 2015\2.2.2100.0\CppSdk\SDK\include -I C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Microsoft Azure Data Lake Tools for Visual Studio 2015\2.2.2100.0\CppSdk\SDK\include\um -I C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Microsoft Azure Data Lake Tools for Visual Studio 2015\2.2.2100.0\CppSdk\SDK\include\shared -I C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Microsoft Azure Data Lake Tools for Visual Studio 2015\2.2.2100.0\CppSdk\SDK\include\ucrt -I C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Microsoft Azure Data Lake Tools for Visual Studio 2015\2.2.2100.0\LocalRunSDK -I C:\Repositories\AzureDataLakeDemos\USQLApplicationDemo\bin\Debug\F69E65693843FCCF\Stage_AppendReport_184F5021E102F9E5 -Yc -Fo__ScopeCodeGenEngine__.dllNative_pch.obj -Fp__ScopeCodeGenEngine__.dllNative_pch.pch -Fd__ScopeCodeGenEngine__.dllNative_pch.pdb -sqm C:\Users\slowd\AppData\Local\Microsoft\VSCommon\14.0\SQM\sqmcpp.log'
+time(C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Microsoft Azure Data Lake Tools for Visual Studio 2015\2.2.2100.0\CppSdk\VC\bin\c1xx.dll)=2.16989s < 579438417321 - 579442645596 > BB [C:\Repositories\AzureDataLakeDemos\USQLApplicationDemo\bin\Debug\F69E65693843FCCF\Stage_AppendReport_184F5021E102F9E5\__ScopeCodeGenEngine__.dll.cpp]
+`C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Microsoft Azure Data Lake Tools for Visual Studio 2015\2.2.2100.0\CppSdk\VC\bin\c2.dll -il C:\Users\slowd\AppData\Local\Temp\_CL_257948b5 -typedil -f __ScopeCodeGenEngine__.dll.cpp -dos -GS -bigobj -MD -W 4 -WX -Zi -Og -Ob2 -Gy -Bd -cgsummary -EHa -Yc -Fo__ScopeCodeGenEngine__.dllNative_pch.obj -Fd__ScopeCodeGenEngine__.dllNative_pch.pdb'
+Code Generation Summary
+	Total Function Count: 156
+	Elapsed Time: 0.079 sec
+	Total Compilation Time: 0.272 sec
+	Efficiency: 345.8%
+	Average time per function: 0.002 sec
+	Anomalistic Compile Times: 11
+		?_Copy@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAX_K0@Z: 0.014 sec, 0 instrs
+		?_Copy@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QEAAX_K0@Z: 0.013 sec, 0 instrs
+		?assign@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QEAAAEAV12@PEB_W_K@Z: 0.013 sec, 0 instrs
+		?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAAEAV12@PEBD_K@Z: 0.012 sec, 0 instrs
+		?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAAEAV12@AEBV12@_K1@Z: 0.011 sec, 0 instrs
+		?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAAEAV12@AEBV12@_K1@Z: 0.011 sec, 0 instrs
+		?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAAEAV12@PEBD_K@Z: 0.011 sec, 0 instrs
+		?assign@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QEAAAEAV12@AEBV12@_K1@Z: 0.010 sec, 0 instrs
+		?append@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QEAAAEAV12@PEB_W_K@Z: 0.010 sec, 0 instrs
+		?append@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QEAAAEAV12@AEBV12@_K1@Z: 0.009 sec, 0 instrs
+		??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAA@$$QEAV01@@Z: 0.008 sec, 0 instrs
+time(C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Microsoft Azure Data Lake Tools for Visual Studio 2015\2.2.2100.0\CppSdk\VC\bin\c2.dll)=0.14065s < 579442650698 - 579442924777 > BB [C:\Repositories\AzureDataLakeDemos\USQLApplicationDemo\bin\Debug\F69E65693843FCCF\Stage_AppendReport_184F5021E102F9E5\__ScopeCodeGenEngine__.dll.cpp]
+
+#CPP stderr:
+
+#CPP cl.exe compile (iteration 1/1) -- Native
+#CPP stdout:
+__ScopeCodeGenEngine__.dll.cpp
+ENC_CWD=C:\Repositories\AzureDataLakeDemos\USQLApplicationDemo\bin\Debug\F69E65693843FCCF\Stage_AppendReport_184F5021E102F9E5
+ENC_CL=C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Microsoft Azure Data Lake Tools for Visual Studio 2015\2.2.2100.0\CppSdk\VC\bin\cl.exe
+ENC_SRC=__ScopeCodeGenEngine__.dll.cpp
+ENC_PDB=C:\Repositories\AzureDataLakeDemos\USQLApplicationDemo\bin\Debug\F69E65693843FCCF\Stage_AppendReport_184F5021E102F9E5\__ScopeCodeGenEngine__.dllNative_pch.pdb
+ENC_CMD=-nologo -c -bigobj -Bt+ -DWIN32_LEAN_AND_MEAN -MD -W4 -WX -Zi -O2 -Bd -d2cgsummary -EHa -DCOMPILE_NATIVE -wd4125 -wd4627 -wd4800 -wd4702 -DUSE_SSE4_2 -I"C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Microsoft Azure Data Lake Tools for Visual Studio 2015\2.2.2100.0\CppSdk\VC\include" -I"C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Microsoft Azure Data Lake Tools for Visual Studio 2015\2.2.2100.0\CppSdk\SDK\include" -I"C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Microsoft Azure Data Lake Tools for Visual Studio 2015\2.2.2100.0\CppSdk\SDK\include\um" -I"C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Microsoft Azure Data Lake Tools for Visual Studio 2015\2.2.2100.0\CppSdk\SDK\include\shared" -I"C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Microsoft Azure Data Lake Tools for Visual Studio 2015\2.2.2100.0\CppSdk\SDK\include\ucrt" -I"C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Microsoft Azure Data Lake Tools for Visual Studio 2015\2.2.2100.0\LocalRunSDK" -IC:\Repositories\AzureDataLakeDemos\USQLApplicationDemo\bin\Debug\F69E65693843FCCF\Stage_AppendReport_184F5021E102F9E5 -DCOMPILE_ALL_VERTICES -DCOMPILE_INIT_SHUTDOWN -Yu -FpC:\Repositories\AzureDataLakeDemos\USQLApplicationDemo\bin\Debug\F69E65693843FCCF\Stage_AppendReport_184F5021E102F9E5\__ScopeCodeGenEngine__.dllNative_pch.pch -TP -X
+`C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Microsoft Azure Data Lake Tools for Visual Studio 2015\2.2.2100.0\CppSdk\VC\bin\c1xx.dll -zm0x00007FF6F7E05570 -allChunksReserved -il C:\Users\slowd\AppData\Local\Temp\_CL_a204c96f -typedil -f __ScopeCodeGenEngine__.dll.cpp -Ze -D_MSC_EXTENSIONS -Zp16 -ZB64 -D_INTEGRAL_MAX_BITS=64 -pc \:/ -D_MSC_VER=1900 -D_MSC_FULL_VER=190023506 -D_MSC_BUILD=0 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -GS -GR -D_CPPRTTI -Zc:forScope -Zc:wchar_t -nologo -DWIN32_LEAN_AND_MEAN -D_MT -D_DLL -W 4 -WX -Zi -GF -Og -Oi -Ot -Oy -Bd -EHa -D_CPPUNWIND -DCOMPILE_NATIVE -wd 4125 -wd 4627 -wd 4800 -wd 4702 -DUSE_SSE4_2 -I C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Microsoft Azure Data Lake Tools for Visual Studio 2015\2.2.2100.0\CppSdk\VC\include -I C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Microsoft Azure Data Lake Tools for Visual Studio 2015\2.2.2100.0\CppSdk\SDK\include -I C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Microsoft Azure Data Lake Tools for Visual Studio 2015\2.2.2100.0\CppSdk\SDK\include\um -I C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Microsoft Azure Data Lake Tools for Visual Studio 2015\2.2.2100.0\CppSdk\SDK\include\shared -I C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Microsoft Azure Data Lake Tools for Visual Studio 2015\2.2.2100.0\CppSdk\SDK\include\ucrt -I C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Microsoft Azure Data Lake Tools for Visual Studio 2015\2.2.2100.0\LocalRunSDK -I C:\Repositories\AzureDataLakeDemos\USQLApplicationDemo\bin\Debug\F69E65693843FCCF\Stage_AppendReport_184F5021E102F9E5 -DCOMPILE_ALL_VERTICES -DCOMPILE_INIT_SHUTDOWN -Fo__ScopeCodeGenEngine__.dllNative.obj -Yu -Fp__ScopeCodeGenEngine__.dllNative_pch.pch -Fd__ScopeCodeGenEngine__.dllNative_pch.pdb -sqm C:\Users\slowd\AppData\Local\Microsoft\VSCommon\14.0\SQM\sqmcpp.log'
+time(C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Microsoft Azure Data Lake Tools for Visual Studio 2015\2.2.2100.0\CppSdk\VC\bin\c1xx.dll)=0.46078s < 579443069930 - 579443967812 > BB [C:\Repositories\AzureDataLakeDemos\USQLApplicationDemo\bin\Debug\F69E65693843FCCF\Stage_AppendReport_184F5021E102F9E5\__ScopeCodeGenEngine__.dll.cpp]
+`C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Microsoft Azure Data Lake Tools for Visual Studio 2015\2.2.2100.0\CppSdk\VC\bin\c2.dll -il C:\Users\slowd\AppData\Local\Temp\_CL_a204c96f -typedil -f __ScopeCodeGenEngine__.dll.cpp -dos -GS -bigobj -MD -W 4 -WX -Zi -Og -Ob2 -Gy -Bd -cgsummary -EHa -Fo__ScopeCodeGenEngine__.dllNative.obj -Fd__ScopeCodeGenEngine__.dllNative_pch.pdb'
+Code Generation Summary
+	Total Function Count: 1525
+	Elapsed Time: 1.667 sec
+	Total Compilation Time: 5.945 sec
+	Efficiency: 356.6%
+	Average time per function: 0.004 sec
+	Anomalistic Compile Times: 34
+		?SerializeHeader@?$TextOutputPolicy@VProcess_1_Data0@@$04@ScopeEngine@@SAXPEAV?$TextOutputStream@U?$TextOutputStreamTraitsConst@$0CM@$0A@$0A@$0A@$0A@$0A@$00$03$00$0A@@ScopeEngine@@@2@@Z: 0.226 sec, 0 instrs
+		??$Write@VFBinary@ScopeEngine@@$0A@@?$TextOutputStream@U?$TextOutputStreamTraitsConst@$0CM@$0A@$0A@$0A@$0A@$0A@$00$03$00$0A@@ScopeEngine@@@ScopeEngine@@QEAAXAEBVFBinary@1@@Z: 0.210 sec, 0 instrs
+		??$Write@VFString@ScopeEngine@@$0A@@?$TextOutputStream@U?$TextOutputStreamTraitsConst@$0CM@$0A@$0A@$0A@$0A@$0A@$00$03$00$0A@@ScopeEngine@@@ScopeEngine@@QEAAXAEBVFString@1@@Z: 0.203 sec, 0 instrs
+		?WriteRuntimeStats@Statistics@IncrementalAllocator@ScopeEngine@@QEBAXAEAVTreeNode@3@J@Z: 0.176 sec, 0 instrs
+		??$Write@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$0A@@?$TextOutputStream@U?$TextOutputStreamTraitsConst@$0CM@$0A@$0A@$0A@$0A@$0A@$00$03$00$0A@@ScopeEngine@@@ScopeEngine@@QEAAXAEBVFString@1@@Z: 0.164 sec, 0 instrs
+		??$ReadString@VFStringWithNull@ScopeEngine@@@?$TextInputStream@U?$TextInputStreamTraitsConst@$0CM@$0A@$0A@$0A@$00$03$00$00$0A@$00$0A@@ScopeEngine@@VCosmosInput@2@@ScopeEngine@@AEAA?AW4TokenizerState@01@AEAVFStringWithNull@1@@Z: 0.151 sec, 0 instrs
+		??$ReadString@VFString@ScopeEngine@@@?$TextInputStream@U?$TextInputStreamTraitsConst@$0CM@$0A@$0A@$0A@$00$03$00$00$0A@$00$0A@@ScopeEngine@@VCosmosInput@2@@ScopeEngine@@AEAA?AW4TokenizerState@01@AEAVFString@1@@Z: 0.144 sec, 0 instrs
+		??$WriteString@$0A@@?$TextOutputStream@U?$TextOutputStreamTraitsConst@$0CM@$0A@$0A@$0A@$0A@$0A@$00$03$00$0A@@ScopeEngine@@@ScopeEngine@@QEAAXPEBD_K@Z: 0.136 sec, 0 instrs
+		??$Read@H@?$TextInputStream@U?$TextInputStreamTraitsConst@$0CM@$0A@$0A@$0A@$00$03$00$00$0A@$00$0A@@ScopeEngine@@VCosmosInput@2@@ScopeEngine@@QEAAXAEAV?$NativeNullable@H@1@@Z: 0.129 sec, 0 instrs
+		?ThrowBadConvertException@?$TextInputStream@U?$TextInputStreamTraitsConst@$0CM@$0A@$0A@$0A@$00$03$00$00$0A@$00$0A@@ScopeEngine@@VCosmosInput@2@@ScopeEngine@@QEAAXQEAPEBDH@Z: 0.123 sec, 0 instrs
+		?EndRow@?$TextInputStream@U?$TextInputStreamTraitsConst@$0CM@$0A@$0A@$0A@$00$03$00$00$0A@$00$0A@@ScopeEngine@@VCosmosInput@2@@ScopeEngine@@QEAAX_N@Z: 0.119 sec, 0 instrs
+		?WriteRuntimeStatsImpl@?$ParallelUnionAll@V?$Extractor@VExtract_0_Data0@@V?$TextExtractPolicy@VExtract_0_Data0@@$00@ScopeEngine@@V?$TextInputStream@U?$TextInputStreamTraitsConst@$0CM@$0A@$0A@$0A@$00$03$00$00$0A@$00$0A@@ScopeEngine@@VCosmosInput@2@@3@@ScopeEngine@@VExtract_0_Data0@@$0A@@ScopeEngine@@QEAAXAEAVTreeNode@2@@Z: 0.112 sec, 0 instrs
+		??$Read@VFString@ScopeEngine@@@?$TextInputStream@U?$TextInputStreamTraitsConst@$0CM@$0A@$0A@$0A@$00$03$00$00$0A@$00$0A@@ScopeEngine@@VCosmosInput@2@@ScopeEngine@@QEAAXAEAVFString@1@@Z: 0.109 sec, 0 instrs
+		?ReadStringInner@?$TextInputStream@U?$TextInputStreamTraitsConst@$0CM@$0A@$0A@$0A@$00$03$00$00$0A@$00$0A@@ScopeEngine@@VCosmosInput@2@@ScopeEngine@@AEAA?AW4TokenizerState@12@PEAVAutoExpandBuffer@2@@Z: 0.097 sec, 0 instrs
+		?StoreBadConvertException@?$TextInputStream@U?$TextInputStreamTraitsConst@$0CM@$0A@$0A@$0A@$00$03$00$00$0A@$00$0A@@ScopeEngine@@VCosmosInput@2@@ScopeEngine@@QEAAXAEBW4ConvertResult@2@AEBVFStringWithNull@2@@Z: 0.096 sec, 0 instrs
+		?Deserialize@?$TextExtractPolicy@VExtract_0_Data0@@$00@ScopeEngine@@SA_NPEAV?$TextInputStream@U?$TextInputStreamTraitsConst@$0CM@$0A@$0A@$0A@$00$03$00$00$0A@$00$0A@@ScopeEngine@@VCosmosInput@2@@2@AEAVExtract_0_Data0@@@Z: 0.079 sec, 0 instrs
+		?str@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@XZ: 0.069 sec, 0 instrs
+		?LoadingData@?$ParallelLoader@V?$Extractor@VExtract_0_Data0@@V?$TextExtractPolicy@VExtract_0_Data0@@$00@ScopeEngine@@V?$TextInputStream@U?$TextInputStreamTraitsConst@$0CM@$0A@$0A@$0A@$00$03$00$00$0A@$00$0A@@ScopeEngine@@VCosmosInput@2@@3@@ScopeEngine@@VExtract_0_Data0@@@ScopeEngine@@AEAA_NXZ: 0.068 sec, 0 instrs
+		?GetEncodingName@ScopeEngine@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@W4TextEncoding@1@@Z: 0.063 sec, 0 instrs
+		?Dump@?$TextInputStream@U?$TextInputStreamTraitsConst@$0CM@$0A@$0A@$0A@$00$03$00$00$0A@$00$0A@@ScopeEngine@@VCosmosInput@2@@ScopeEngine@@QEBAXAEAV?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z: 0.061 sec, 0 instrs
+		?WriteRuntimeStatsImpl@?$Outputer@V?$ScopeProcessor@VExtract_0_Data0@@VProcess_1_Data0@@@ScopeEngine@@VProcess_1_Data0@@V?$TextOutputPolicy@VProcess_1_Data0@@$04@2@V?$TextOutputStream@U?$TextOutputStreamTraitsConst@$0CM@$0A@$0A@$0A@$0A@$0A@$00$03$00$0A@@ScopeEngine@@@2@$0A@@ScopeEngine@@QEAAXAEAVTreeNode@2@@Z: 0.060 sec, 0 instrs
+		?WriteRuntimeStats@CosmosInput@ScopeEngine@@QEAAXAEAVTreeNode@2@@Z: 0.056 sec, 0 instrs
+		?WriteRuntimeStats@?$ParallelLoader@V?$Extractor@VExtract_0_Data0@@V?$TextExtractPolicy@VExtract_0_Data0@@$00@ScopeEngine@@V?$TextInputStream@U?$TextInputStreamTraitsConst@$0CM@$0A@$0A@$0A@$00$03$00$00$0A@$00$0A@@ScopeEngine@@VCosmosInput@2@@3@@ScopeEngine@@VExtract_0_Data0@@@ScopeEngine@@QEAAXAEAVTreeNode@2@@Z: 0.053 sec, 0 instrs
+		??0Process_1_Data0@@QEAA@XZ: 0.050 sec, 0 instrs
+		?AppendRuntimeStats@?$Extractor@VExtract_0_Data0@@V?$TextExtractPolicy@VExtract_0_Data0@@$00@ScopeEngine@@V?$TextInputStream@U?$TextInputStreamTraitsConst@$0CM@$0A@$0A@$0A@$00$03$00$00$0A@$00$0A@@ScopeEngine@@VCosmosInput@2@@3@@ScopeEngine@@QEAAXAEAVTreeNode@2@@Z: 0.049 sec, 0 instrs
+		?WriteRuntimeStats@CosmosOutput@ScopeEngine@@QEAAXAEAVTreeNode@2@@Z: 0.048 sec, 0 instrs
+		?Serialize@?$TextOutputPolicy@VProcess_1_Data0@@$04@ScopeEngine@@SAXPEAV?$TextOutputStream@U?$TextOutputStreamTraitsConst@$0CM@$0A@$0A@$0A@$0A@$0A@$00$03$00$0A@@ScopeEngine@@@2@AEAVProcess_1_Data0@@@Z: 0.046 sec, 0 instrs
+		?GetNextPage@?$TextEncodingReader@VCosmosInput@ScopeEngine@@@ScopeEngine@@QEAAPEADAEA_KAEA_N@Z: 0.046 sec, 0 instrs
+		??0Extract_0_Data0@@QEAA@$$QEAV0@@Z: 0.043 sec, 0 instrs
+		??$ConvertToUtf8@$03@?$TextEncodingReader@VCosmosInput@ScopeEngine@@@ScopeEngine@@AEAAXPEAV?$TextEncodingConverter@$03@1@AEA_KAEA_N@Z: 0.042 sec, 0 instrs
+		?WriteRuntimeStatsImpl@?$ScopeProcessor@VExtract_0_Data0@@VProcess_1_Data0@@@ScopeEngine@@QEAAXAEAVTreeNode@2@@Z: 0.040 sec, 0 instrs
+		?UINT64ToHexStr@?$TextInputStream@U?$TextInputStreamTraitsConst@$0CM@$0A@$0A@$0A@$00$03$00$00$0A@$00$0A@@ScopeEngine@@VCosmosInput@2@@ScopeEngine@@QEBAXAEAV?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_K@Z: 0.039 sec, 0 instrs
+		?Init@?$TextEncodingReader@VCosmosInput@ScopeEngine@@@ScopeEngine@@QEAAXPEAVCosmosInput@2@_K@Z: 0.039 sec, 0 instrs
+		??0Extract_0_Data0@@QEAA@XZ: 0.039 sec, 0 instrs
+time(C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Microsoft Azure Data Lake Tools for Visual Studio 2015\2.2.2100.0\CppSdk\VC\bin\c2.dll)=1.76357s < 579443972959 - 579447409479 > BB [C:\Repositories\AzureDataLakeDemos\USQLApplicationDemo\bin\Debug\F69E65693843FCCF\Stage_AppendReport_184F5021E102F9E5\__ScopeCodeGenEngine__.dll.cpp]
+
+#CPP stderr:
+
+*** Done with C++ compilation, time elapsed until this point: 00:00:14.5116531
+#LINK stdout:
+__ScopeCodeGenEngine__.dllNative_pch.obj : warning LNK4042: object specified more than once; extras ignored
+   Creating library C:\Repositories\AzureDataLakeDemos\USQLApplicationDemo\bin\Debug\F69E65693843FCCF\Stage_AppendReport_184F5021E102F9E5\__ScopeCodeGenEngine__.lib and object C:\Repositories\AzureDataLakeDemos\USQLApplicationDemo\bin\Debug\F69E65693843FCCF\Stage_AppendReport_184F5021E102F9E5\__ScopeCodeGenEngine__.exp
+Linker: LibDef Total time = 0.00325s PB: 41398272 [C:\Repositories\AzureDataLakeDemos\USQLApplicationDemo\bin\Debug\F69E65693843FCCF\Stage_AppendReport_184F5021E102F9E5\__ScopeCodeGenEngine__.dll] 
+Linker:   MD Merge Total time = 0.08686s PB: 43425792 [C:\Repositories\AzureDataLakeDemos\USQLApplicationDemo\bin\Debug\F69E65693843FCCF\Stage_AppendReport_184F5021E102F9E5\__ScopeCodeGenEngine__.dll] 
+Linker:   Generate Transitions Total time = 0.00768s PB: 43642880 [C:\Repositories\AzureDataLakeDemos\USQLApplicationDemo\bin\Debug\F69E65693843FCCF\Stage_AppendReport_184F5021E102F9E5\__ScopeCodeGenEngine__.dll] 
+Linker:   OptRef: Interval #1, time = 0.00276s [C:\Repositories\AzureDataLakeDemos\USQLApplicationDemo\bin\Debug\F69E65693843FCCF\Stage_AppendReport_184F5021E102F9E5\__ScopeCodeGenEngine__.dll] 
+Linker:   OptRef Total time = 0.10320s PB: 44433408 [C:\Repositories\AzureDataLakeDemos\USQLApplicationDemo\bin\Debug\F69E65693843FCCF\Stage_AppendReport_184F5021E102F9E5\__ScopeCodeGenEngine__.dll] 
+Linker:   OptIcf Total time = 0.01000s PB: 47054848 [C:\Repositories\AzureDataLakeDemos\USQLApplicationDemo\bin\Debug\F69E65693843FCCF\Stage_AppendReport_184F5021E102F9E5\__ScopeCodeGenEngine__.dll] 
+Linker:   MD Finalize Total time = 0.01313s PB: 46739456 [C:\Repositories\AzureDataLakeDemos\USQLApplicationDemo\bin\Debug\F69E65693843FCCF\Stage_AppendReport_184F5021E102F9E5\__ScopeCodeGenEngine__.dll] 
+Linker: Pass 1: Interval #1, time = 0.51748s [C:\Repositories\AzureDataLakeDemos\USQLApplicationDemo\bin\Debug\F69E65693843FCCF\Stage_AppendReport_184F5021E102F9E5\__ScopeCodeGenEngine__.dll] 
+Linker:   Wait PDB close Total time = 0.05523s PB: 15024128 [C:\Repositories\AzureDataLakeDemos\USQLApplicationDemo\bin\Debug\F69E65693843FCCF\Stage_AppendReport_184F5021E102F9E5\__ScopeCodeGenEngine__.dll] 
+Linker:   Wait type merge Total time = 0.01789s PB: 14970880 [C:\Repositories\AzureDataLakeDemos\USQLApplicationDemo\bin\Debug\F69E65693843FCCF\Stage_AppendReport_184F5021E102F9E5\__ScopeCodeGenEngine__.dll] 
+Linker: Pass 2: Interval #2, time = 0.12434s [C:\Repositories\AzureDataLakeDemos\USQLApplicationDemo\bin\Debug\F69E65693843FCCF\Stage_AppendReport_184F5021E102F9E5\__ScopeCodeGenEngine__.dll] 
+Linker: Final Total time = 0.64186s < 579447771619 - 579449022364 > PB: 15499264 [C:\Repositories\AzureDataLakeDemos\USQLApplicationDemo\bin\Debug\F69E65693843FCCF\Stage_AppendReport_184F5021E102F9E5\__ScopeCodeGenEngine__.dll] 
+
+#LINK stderr:
+
+*** Done with C++ linking, time elapsed until this point: 00:00:15.3442092
+*** Exiting compilation, time elapsed until this point: 00:00:15.3452068

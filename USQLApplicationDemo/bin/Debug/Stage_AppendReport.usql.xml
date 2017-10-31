@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CompileResult scriptPath="C:\Repositories\AzureDataLakeDemos\USQLApplicationDemo\Stage_AppendReport.usql"><Error><Start>9929</Start><End>9947</End><Message>E_CSC_USER_INVALIDCSHARP: C# error CS0103: The name 'CleansingFunctions' does not exist in the current context
+Description:
+C# compiler reported that this expression is not valid C#.
+Resolution:
+Make sure that a valid C# expression is specified.... at token 'CleansingFunctions', line 62
+near the ###:
+**************
+ng,
+            [Est Household Income V5] string
+    FROM @InputFile
+    USING Extractors.Csv(silent:true, skipFirstNRows:1);
+
+@CleansedData =
+    SELECT  ### CleansingFunctions.GetSHA256Hash([in_first_name] + [in_last_name]) AS NameHash,
+           [in_seq],
+           [in_subseq],
+           [Address1],
+        </Message></Error></CompileResult>

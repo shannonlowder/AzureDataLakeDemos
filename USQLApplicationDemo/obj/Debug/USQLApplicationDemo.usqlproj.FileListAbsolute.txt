@@ -1,0 +1,2 @@
+C:\Repositories\AzureDataLakeDemos\USQLApplicationDemo\bin\Debug\Algebra.xml
+C:\Repositories\AzureDataLakeDemos\USQLApplicationDemo\obj\Debug\Algebra.xml
