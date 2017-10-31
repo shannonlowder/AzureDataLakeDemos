@@ -14,7 +14,7 @@
     <ScriptUserData Include="Stage_AppendReport.usql">
       <UseLocalComputeAccount>true</UseLocalComputeAccount>
       <LocalComputeAccount>LocalCA:localcomputeaccount</LocalComputeAccount>
-      <LocalDatabase>DemoDatabase</LocalDatabase>
+      <LocalDatabase>master</LocalDatabase>
       <LocalSchema>dbo</LocalSchema>
     </ScriptUserData>
   </ItemGroup>

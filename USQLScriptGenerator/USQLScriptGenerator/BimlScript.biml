@@ -1,0 +1,26 @@
+<#@ code file="Interrogator.cs" #>
+<#@ code file="ConversionUtility.cs" #>
+<#
+    string demoFile = @"C:\Repositories\AzureDataLakeDemos\DemoFiles\Person.csv";
+    
+    Interrogator i = new Interrogator();
+    List<DestinationColumn> DestinationSchema = i.ProcessFile(demoFile, ',', true, 0, "\"");
+    ConversionUtility cu = new ConversionUtility();
+#>
+<Biml xmlns="http://schemas.varigence.com/biml.xsd">
+    <Annotations>
+        <Annotation>
+            @SourceData = 
+                EXTRACT
+            <#  int colCount = 0;
+                foreach(var col in DestinationSchema) {
+            #>
+        <#=colCount > 0 ? ", ": "  "#><#=col.Name#> <#= cu.Convert(SourceSystem.SqlServer, SourceSystem.Biml, col.DataType) #><#=col.Nullable ? "?":""#>
+            <#
+                   colCount++; 
+                }#>    
+                FROM @inputFile
+                USING Extractors.Csv(silent:true, skipFirstRows:1)
+        </Annotation>
+    </Annotations>
+</Biml>
